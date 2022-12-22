@@ -26,8 +26,8 @@ This project consists of 2 models:
 - This model is attempt to determine whether or not we could increase accuracy scores found in the Baseline Model.
 One of the ways through which we can improve our model is adjusting hyperparameters on our RandomForestClassifier class . In our Baseline Model, the hyperparameters we feed into our Random ForestClassfier() were:
 
-* max_depth* = 7
-* n_estimators* = 7 
+* max_depth = 7
+* n_estimators = 7 
 
 We wanted to see if there was a better combination of these hyperparamters to improve the accuracy of prediciotn model. To achive this, we used <b>GridSearchCV</b>. 
 
